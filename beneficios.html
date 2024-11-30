@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pará Lanches</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/beneficios corpo.css">
+    <link rel="stylesheet" href="css/darktheme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="cardapio.html">Cardapio</a></li>
+                <li><a href="endereco.html">Endereço</a></li>
+                <li><a href="contato.html">Conatato</a></li>
+                <li><a href="quemsomos.html">Quem somos?</a></li>
+            </ul>
+
+            <div class="header_mobile">
+                <img src="img/menusandwich.png" alt="menu" id="img_mobile" onclick="toggleMenu()">
+            </div>
+        </nav>
+        <ul class="lista_mobile" id="menuDropdown">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="beneficios.html">Benefícios</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="endereco.html">Endereço</a></li>
+            <li><a href="contato.html">Conatato</a></li>
+            <li><a href="quemsomos.html">Quem somos?</a></li>
+       </ul>
+    </header>
+    
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+    </label>
+
+   <main>
+        <h1>Promoções</h1>
+        <p> Siga-nos em nossas redes sociais e ganhe cupons promocionais!</p>
+
+        <img class="desconto" src="img/desconto.png" alt="desconto">
+
+        <a class="link" href="https://www.instagram.com/paralanches2/" target="_blank" rel="noopener noreferrer">
+            <img src="img/instavermelho.png" alt="instagram">
+            <p>Instagram</p>
+        </a> 
+
+        <a class="link" href="https://x.com/paraLanches"target="_blank" rel="noopener noreferrer">
+            <img src="img/twittervermelho.png" alt="X">
+            <p>X-Twitter</p>
+        </a> 
+
+        <a class="link" href="https://www.facebook.com/groups/593456872261450/" target="_blank" rel="noopener noreferrer">
+            <img src="img/facebookvermelho.png" alt="facebook">
+            <p>facebook</p>
+        </a> 
+
+        <h2>Seja parceiro do Pará lanches</h2>
+        <p>Por apenas 5,50R$, pode tornar-se nosso parceiro e ganhar até 50% de desconto nos nossos lanches.</p>
+        <button class="toggleButton" id="toggleButton">Se Inscreva-se</button>
+        <div id="mySection">
+            <p></p>
+            <h1>Se Inscreva-se</h1>
+            <form>
+                <!-- Campo de nome -->
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <!-- Campo de e-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <!-- Botão de envio -->
+                <button class="submit" type="submit" onclick="spamCadastro()">Enviar</button>
+            </form>
+        </div>
+        
+   </main>
+
+    <footer>
+        <img class="img_footer" src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+        <h2 class="titulo_footer">Compartilhe algo delicioso</h2>
+        <div> 
+            <a class="links_footer" href="https://www.facebook.com/groups/593456872261450/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/facebook.png?mtime=20210201115614&focal=none" alt="facebook"></a>
+            <a class="links_footer" href="https://www.instagram.com/paralanches2/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/instagram.png?mtime=20210201115615&focal=none" alt="instagram"></a>
+            <a class="links_footer" href="https://x.com/paraLanches"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/twitter.png?mtime=20210201115615&focal=none" alt="twitter"></a>
+        </div>
+        <p>Imagens meramente ilustrativas. Todos os direitos reservados &copy; 2024 - Pará Lanches | Inspirado no melhor!</p>
+    </footer> 
+    <script src="js/java.js"></script>
+    <script src="js/darktheme.js"></script>
+</body>
+</html>

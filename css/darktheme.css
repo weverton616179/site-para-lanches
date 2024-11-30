@@ -1,0 +1,89 @@
+body.dark-theme {
+    background-color: rgb(26, 26, 26);
+}
+
+body.dark-theme, body.dark-theme .link p, body.dark-theme button {
+    color: white;
+}
+
+body.dark-theme .toggleButton, body.dark-theme .submit, body.dark-theme button {
+    background-color: rgb(12, 100, 96);
+}
+
+body.dark-theme main {
+    background-color: rgb(26, 26, 26);
+}
+
+body.dark-theme header nav, body.dark-theme .lista_mobile {
+    background-color: #520000;
+}
+
+body.dark-theme header .menu a, body.dark-theme .btn {
+    background-color: #6e0000;
+}
+
+body.dark-theme header .menu a:hover, body.dark-theme .btn:hover {
+    background-color: white;
+}
+
+body.dark-theme footer {
+    background-color: #520000;
+}
+
+body.dark-theme .pizzas {
+  border-bottom: 1px solid white;
+}
+
+/* Contêiner do switch */
+.switch {
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    left: 10px;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+  
+  /* Oculta o checkbox padrão */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 25px; /* Torna o fundo redondo */
+  }
+  
+  /* Círculo dentro do slider */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%; /* Torna o círculo redondo */
+  }
+  
+  /* Quando o checkbox está marcado */
+  input:checked + .slider {
+    background-color: #575757;
+  }
+  
+  /* Move o círculo para a direita */
+  input:checked + .slider:before {
+    transform: translateX(25px);
+  }

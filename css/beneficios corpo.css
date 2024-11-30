@@ -1,0 +1,66 @@
+#mySection {
+    display: none; /* A seção está invisível por padrão */
+    padding: 20px;
+    margin-top: 0;
+}
+ 
+.toggleButton {
+    border: none;
+    background-color: #f5d000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px
+}
+
+.submit {
+    border: none;
+    background-color: #f5d000; 
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+
+#name{
+    border-radius: 5%;
+}
+
+#email{
+border-radius: 5%;
+}
+
+main{
+text-align: center;
+padding: 2vw;
+}
+
+.desconto {
+    width: 200px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.link img {
+    width: 20px;
+    height: 20px;
+}
+
+.link p{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    padding-left: 5px;
+    font-weight: bold
+}
+
+main h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main h2 {
+    font-weight: bold
+}

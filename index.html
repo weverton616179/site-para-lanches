@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pará Lanches</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/darktheme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="cardapio.html">Cardapio</a></li>
+                <li><a href="endereco.html">Endereço</a></li>
+                <li><a href="contato.html">Conatato</a></li>
+                <li><a href="quemsomos.html">Quem somos?</a></li>
+            </ul>
+
+            <div class="header_mobile">
+                <img src="img/menusandwich.png" alt="menu" id="img_mobile" onclick="toggleMenu()">
+            </div>
+        </nav>
+        <ul class="lista_mobile" id="menuDropdown">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="beneficios.html">Benefícios</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="endereco.html">Endereço</a></li>
+            <li><a href="contato.html">Conatato</a></li>
+            <li><a href="quemsomos.html">Quem somos?</a></li>
+       </ul>
+    </header>
+
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+    </label>
+
+    <main>
+        <h1>Pará Lanches</h1>
+        <p>Sua melhor escolha para lanches deliciosos e com qualidade!</p>
+        <a href="html/quemsomos.html" class="btn">Saiba mais</a>
+    </main>
+
+    <section class="boas_vindas">
+        <h1>Bem-vindo à Pará Lanches!</h1>
+        <p>Aqui, cada lanche é preparado com carinho, usando ingredientes frescos e o sabor autêntico do Pará. Nossa missão é oferecer a você uma experiência única, com combinações irresistíveis que vão te surpreender a cada mordida.</p>
+    </section>
+
+    <section class="video-section">
+        <div class="div_avaliacoes">
+            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+            <div class="elfsight-app-fc00aacc-5adc-4fa0-8f1c-8c21bc336e7e" data-elfsight-app-lazy></div>
+        </div>
+        <div class="div_video">
+            <h2>Dicas de Lanches Deliciosos</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=tRQagdV8p8s&ab_channel=FilipeLeme" title="Dicas de Lanches Deliciosos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+            <p>😄 A galera aqui do Pará Lanches está rindo até agora depois de ver o vídeo sobre a nossa lanchonete! Sério, até achamos que a câmera tinha algum superpoder, porque até o pãozinho parecia brilhar mais do que o normal. 🍔✨
+                <br>
+                Tem gente que diz que nossos lanches são tão bons que deveriam vir com capa de super-herói. Outros juram que o sabor secreto está no molho (mas a gente nunca vai contar... é segredo, né?). 😜 Mas, no fim das contas, o importante é que a gente continua fazendo o que mais amamos: servir aquele lanche gostoso que faz qualquer um pedir mais!</p>
+        
+        </div>
+    </section>
+    <button id="theme-toggle">Alternar Tema</button>
+
+    <footer>
+        <img class="img_footer" src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+        <h2 class="titulo_footer">Compartilhe algo delicioso</h2>
+        <div> 
+            <a class="links_footer" href="https://www.facebook.com/groups/593456872261450/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/facebook.png?mtime=20210201115614&focal=none" alt="facebook"></a>
+            <a class="links_footer" href="https://www.instagram.com/paralanches2/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/instagram.png?mtime=20210201115615&focal=none" alt="instagram"></a>
+            <a class="links_footer" href="https://x.com/paraLanches"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/twitter.png?mtime=20210201115615&focal=none" alt="twitter"></a>
+        </div>
+        <p>Imagens meramente ilustrativas. Todos os direitos reservados &copy; 2024 - Pará Lanches | Inspirado no melhor!</p>
+    </footer> 
+    <script src="js/java.js"></script>
+    <script src="js/darktheme.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.pizzas {
+    display: flex;
+    margin: 4vw;
+}
+
+.pizzas h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.descricao {
+    width: 50%;
+}
+
+.descricao h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.descricao ul {
+    list-style-type: circle;
+    padding-left: 6vw;
+    margin: 2vw 0;
+}
+
+.pizzas {
+    border-bottom: 1px solid black;
+}
+
+.pizzas_img {
+    width: 50%;
+}
+
+.pizzas_img img{
+    width: 20vw;
+    height: 20vw;
+    margin: 0 2px;
+    border-radius: 10%; /* Deixa a borda redonda */
+    border: 2px solid #f0c400;
+}
+
+.Sabores p{
+    font-size: 11px;
+    color: rgb(212, 181, 0);
+}
+
+@media screen and (max-width: 500px) {
+    
+    .pizzas_img {
+        padding-left: 5vw;
+    }
+    
+    .pizzas_img img{
+        width: 35vw;
+        height: 35vw;
+        margin: 1vh;
+    }
+}

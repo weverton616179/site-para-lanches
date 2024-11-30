@@ -1,0 +1,44 @@
+main {
+    margin: 20px 8vw;
+    line-height: 1.6;
+}
+main h1 {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+main p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.negrito {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.titulo-prato {
+    color: #d35400;
+    font-weight: bold;
+}
+
+main ul {
+    list-style: disc;
+    padding-left: 4vw;
+}
+
+.imagens {
+    text-align: center;
+}
+
+.imagens img {
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid #f0c400;
+}
+
+@media screen and (max-width: 500px) {
+    .imagens img {
+        width: 100%;
+    }
+}

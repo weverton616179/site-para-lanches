@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pará Lanches</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cardapio.css">
+    <link rel="stylesheet" href="css/darktheme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="cardapio.html">Cardapio</a></li>
+                <li><a href="endereco.html">Endereço</a></li>
+                <li><a href="contato.html">Conatato</a></li>
+                <li><a href="quemsomos.html">Quem somos?</a></li>
+            </ul>
+
+            <div class="header_mobile">
+                <img src="img/menusandwich.png" alt="menu" id="img_mobile" onclick="toggleMenu()">
+            </div>
+        </nav>
+        <ul class="lista_mobile" id="menuDropdown">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="beneficios.html">Benefícios</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="endereco.html">Endereço</a></li>
+            <li><a href="contato.html">Conatato</a></li>
+            <li><a href="quemsomos.html">Quem somos?</a></li>
+       </ul>
+    </header>
+
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+    </label>
+
+    <main>
+        <section class="pizzas">
+            <div class="descricao">
+                <h1>Pizzas!</h1>
+                <div class="Tamanhos">
+                    <h2>Tamanhos</h2>
+                    <ul>
+                        <li>Pizza Gigante 45cm R$70,00</li>
+                        <li>Pizza Familia 40cm R$60,00</li>
+                        <li>Pizza Grande 35cm R$50,00</li>
+                        <li>Pizza Média 25cm R$30,00</li>
+                    </ul>
+                </div>
+                
+                <div class="Sabores">
+                    <h2>Sabores</h2>
+                    <ul>
+                        <li>
+                            <h3>Muçarela</h3>
+                            <p>Molho, Muçarela e Orégano</p>
+                        </li>
+                        <li>
+                            <h3>Calabresa</h3>
+                            <p>Molho, Muçarela, Calabresa, Cebola e Orégano</p>
+                        </li>
+                        <li>
+                            <h3>Presunto</h3>
+                            <p>Molho, Muçarela, Presunto e Orégano</p>
+                        </li>
+                        <li>
+                            <h3>Pepperoni</h3>
+                            <p>Molho, Muçarela, Pepperoni, Alho torrado e Orégano</p>
+                        </li>
+                        <li>
+                            <h3>Alho e óleo</h3>
+                            <p>Molho, Muçarela, Alho torrado e Orégano</p>
+                        </li>
+                        <li>
+                            <h3>Bacon</h3>
+                            <p>Molho, Muçarela, Bacon fatiado e Orégano</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pizzas_img">
+                <img src="img/pizzafandangos.png" alt="pizza fandangos">
+                <img src="img/pizzabacon.png" alt="pizza de bacon">
+                <img src="img/pizzapepperoni.png" alt="pizza de Pepperoni">
+                <img src="img/pizzaxorume.png" alt="pizza de xorume">
+            </div>
+        </section>
+
+        <section class="pizzas">
+            <div class="descricao">
+                <h1>Salgados!</h1>
+                <div class="Tamanhos">
+                    <ul>
+                        <li>Coxinha R$7,00</li>
+                        <li>Enroladinho de queijo com presunto R$7,00</li>
+                        <li>Hambúrguer de forno R$8,00</li>
+                        <li>Joelho R$7,00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pizzas_img">
+                <img src="img/salgado2.png" alt="salgado2">
+                <img src="img/salgado3.png" alt="salgado3">
+            </div>
+        </section>
+
+        <section class="pizzas">
+            <div class="descricao">
+                <h1>Refrigerantes!</h1>
+                <div class="Tamanhos">
+                    <ul>
+                        <li>Guaraná Convenção 350Ml R$3,00</li>
+                        <li>Guaraná Convenção 2 Litros R$7,00</li>
+                        <li>Fanta Uva 2 Litros R$12,00</li>
+                        <li>Guaraná Guaracamp 285Ml R$3,00</li>
+                        <li>Sukita Laranja 2 Litros R$9,00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pizzas_img">
+                <img src="img/guarana2l.jpg" alt="guarana 2l">
+                <img src="img/sukita.jpg" alt="sukita">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img class="img_footer" src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+        <h2 class="titulo_footer">Compartilhe algo delicioso</h2>
+        <div> 
+            <a class="links_footer" href="https://www.facebook.com/groups/593456872261450/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/facebook.png?mtime=20210201115614&focal=none" alt="facebook"></a>
+            <a class="links_footer" href="https://www.instagram.com/paralanches2/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/instagram.png?mtime=20210201115615&focal=none" alt="instagram"></a>
+            <a class="links_footer" href="https://x.com/paraLanches"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/twitter.png?mtime=20210201115615&focal=none" alt="twitter"></a>
+        </div>
+        <p>Imagens meramente ilustrativas. Todos os direitos reservados &copy; 2024 - Pará Lanches | Inspirado no melhor!</p>
+    </footer> 
+    <script src="js/java.js"></script>
+    <script src="js/darktheme.js"></script>
+</body>
+</html>

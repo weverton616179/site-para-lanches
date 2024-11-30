@@ -1,0 +1,40 @@
+.titulo {
+    text-align: center;
+    margin: 3vh 5vw;
+}
+
+.titulo h1 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 2vw 0;
+}
+
+.mapa p {
+    width: 70vw;
+}
+
+.mapa {
+    width: 80%;
+    padding: 5vh 0;
+    margin: 0 auto;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 40vh;
+}
+
+.mapa img {
+    padding-top: 5vh;
+    width: 70vw;
+}
+
+@media screen and (max-width: 500px) {
+    .mapa {
+        padding-top: 1vh;
+    }
+
+    .mapa iframe {
+        height: 25vh;
+    }
+}

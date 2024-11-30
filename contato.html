@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pará Lanches</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/darktheme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="cardapio.html">Cardapio</a></li>
+                <li><a href="endereco.html">Endereço</a></li>
+                <li><a href="contato.html">Conatato</a></li>
+                <li><a href="quemsomos.html">Quem somos?</a></li>
+            </ul>
+
+            <div class="header_mobile">
+                <img src="img/menusandwich.png" alt="menu" id="img_mobile" onclick="toggleMenu()">
+            </div>
+        </nav>
+        <ul class="lista_mobile" id="menuDropdown">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="beneficios.html">Benefícios</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="endereco.html">Endereço</a></li>
+            <li><a href="contato.html">Conatato</a></li>
+            <li><a href="quemsomos.html">Quem somos?</a></li>
+       </ul>
+    </header>
+
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+    </label>
+
+    <main>
+        <section class="entrega">
+            <div>
+                <h1>Está com fome!</h1>
+                <p>Só pedir a um de nossos 🏍️ entregadores enquanto você espera no conforto do seu lar!</p>
+                <img src="img/motoboy.png" alt="motoboy">
+            </div>
+            
+            <p>📞 Telefone: (00) 3456-7890</p>
+            <p>📱 WhatsApp: (00) 91234-5678</p>
+            <p>📧 E-mail Profissional: contato@paralanches.com</p>
+            <br>
+            <p>📍 Endereço: R. Paulo da Silva, 500 - Bangu, Rio de Janeiro - RJ, 21831-200</p>
+            <p>🕒 Horário de Funcionamento: Terça a Domingo, das 18h às 02h</p>
+
+            <div>
+                <h1>Dúvidas ou Sugestões?</h1>
+                <p>Preencha o formulário abaixo que entraremos em contato o mais breve possível!</p>
+            </div>
+
+            <div class="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <br><br>   
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <br><br>
+                <label for="celular">Telefone:</label>
+                <input type="tel" id="celular" name="celular" placeholder="Digite seu telefone" required>
+                <br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="4" required></textarea>
+                <br><br>
+                <button type="submit">Enviar</button>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img class="img_footer" src="img/logo pará lanches.png" alt="Logo Pará Lanches">
+        <h2 class="titulo_footer">Compartilhe algo delicioso</h2>
+        <div> 
+            <a class="links_footer" href="https://www.facebook.com/groups/593456872261450/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/facebook.png?mtime=20210201115614&focal=none" alt="facebook"></a>
+            <a class="links_footer" href="https://www.instagram.com/paralanches2/"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/instagram.png?mtime=20210201115615&focal=none" alt="instagram"></a>
+            <a class="links_footer" href="https://x.com/paraLanches"><img src="https://d3sn2rlrwxy0ce.cloudfront.net/twitter.png?mtime=20210201115615&focal=none" alt="twitter"></a>
+        </div>
+        <p>Imagens meramente ilustrativas. Todos os direitos reservados &copy; 2024 - Pará Lanches | Inspirado no melhor!</p>
+    </footer> 
+    <script src="js/java.js"></script>
+    <script src="js/darktheme.js"></script>
+</body>
+</html>

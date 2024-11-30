@@ -1,0 +1,113 @@
+/* Cabeçalho e Navegação */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background: #d50000; /* Vermelho vibrante */
+    color: white;
+    text-align: center;
+}
+header .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    margin: 0;
+    padding: 0;
+}
+header .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 2.5vh 1.7vw;
+    border-radius: 5px;
+    background-color: #c70202;
+    transition: background 0.3s, color 0.3s;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+header .menu a:hover {
+    background-color: #ffffff; 
+    color: #d50000;
+    text-decoration: underline;
+}
+
+/* Estilo do logo */
+header .logo img {
+    width: 7vw; /* Ajuste o tamanho da logo */
+    padding-left: 2vw;
+}
+
+/* Estilo do menu para alinhar com a logo */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d50000;
+    padding: 1rem;
+}
+
+header .menu li {
+    margin: 0 1vw;
+}
+
+.header_mobile, .titulo_mobile {
+    display: none;
+}
+
+.lista_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    header .menu {
+        display: none;
+    }
+
+    .header_mobile {
+        display: block;
+    }
+
+    header .logo img {
+        width: 20vw;
+    }
+
+    .header_mobile img {
+        width: 70px;
+        padding-right: 3vw;
+    }
+    
+    .lista_mobile {
+        position: absolute;
+        right: 0;
+        background-color: #c70202;
+        
+    }
+
+    .lista_mobile li {     
+
+        padding: 15px 10px;
+    }
+
+    .lista_mobile li a {
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s, color 0.3s;
+        font-weight: bold;
+        padding: 15px 30px;
+    }
+
+    .lista_mobile li a:hover {
+        background-color: #ffffff; 
+        color: #d50000;
+        text-decoration: underline;
+    }
+
+    
+}
